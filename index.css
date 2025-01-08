@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Vinyl&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Great Vibes', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+  scroll-padding-top: 77px !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+	background: #fff;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.burger-menu {
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 24px;
+	height: 100%;
+	/* width: 25%; */
+	background: #fff;
+	z-index: 10;
+	box-shadow: 0px 0px 0px 0.8px rgba(0, 0, 0, 0.2);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+
+	font-size: 34px;
+}
+
+.close-btn {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+
+	width: 30px;
+	height: 30px;
+	font-weight: 600;
+
+	font-size: 42px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* main */
+
+.bg-photo {
+	background-image: url('./assets/main.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+
+	gap: 10px;
+
+	padding-bottom: 60px;
+
+	h1 {
+		font-family: 'sans-serif' !important;
+		color: #fff;
+		font-weight: 600;
+	}
+
+	span {
+		color: #fff;
+	}
+}
+
+.touch {
+	position: absolute;
+	top: 50%;
+	left: calc((100% - 330px) / 2);
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+@media (min-width: 924px) {
+	.bg-photo {
+		background-image: url('./assets/big_main.jpeg');
+		background-position: top center;
+	}
+	
+	.board {
+		width: 50%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	.sore img {
+		height: 250px !important;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.programm {
+		width: 500px;
+		margin-left: calc(65% - 500px) !important;
+		align-items: center !important;
+	}
+}
+
+@media (max-width: 924px) {
+	.burger-menu {
+		width: 90% !important;
+	}
+
+	.menus button img {
+		width: 24px !important;
+		height: 24px !important;
+	}
+}
+
+.invite-container {
+	margin: 52px 20px;
+}
+
+.programm {
+	margin: 22px 20px;
+}
+
+hr {
+	width: 55%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 2px;
+}
+
+@media (max-width: 924px) {
+	.sore img {
+		height: 100px;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+.card {
+	position: relative;
+}
+
+.sore:nth-child(2) {
+	float: right;
+}
+
+.arrow {
+	width: 60px;
+	height: 100px;
+	rotate: 300deg;
+	position: absolute;
+	bottom: -1px;
+	right: 0;
+}
+
+.arrowLeft {
+	rotate: 180deg;
+	left: 0 !important;
+} 
+
+.arrowRight {
+	rotate: 10deg;
+}
+
+.sore:nth-child(2n) {
+	margin-left: 80px;
+}
+
+.kub {
+	border-radius: 100%;
+	width: 40px;
+	height: 40px;
+}
+
+.c1 {
+	background-color: aquamarine;
+}
+
+.c2 {
+	background-color: rgb(18, 196, 202);
+}
+.c3 {
+	background-color: rgb(194, 179, 179);
+}
+.c4 {
+	background-color: rgb(127, 255, 159);
+}
+.c5 {
+	background-color: rgb(245, 247, 138);
+}
