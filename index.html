@@ -73,40 +73,53 @@
 
 			<hr>
 
+			<div class="calendar-container flex justify-center">
+				<img src="./assets/calendar.jpg" alt="3 May">
+	
+			</div>
+			<hr>
 		</div>
+
 
 		<div id='programm' class="programm flex flex-col">
 			<h2 class="text-5xl text-center font-thin mb-4">Программа дня</h2>
 			<div class="card flex justify-between mb-5">
 				<div class="sore flex flex-col gap-2 md:w-full md:mr-20 w-3/4 text-center">
-					<img class='rounded-2xl' src="https://avatars.dzeninfra.ru/get-zen_doc/175604/pub_64e31c8a7a2b0a52f3e6d622_64e31d673003265c0ac66bfa/scale_1200">
-					<h2 class='text-3xl'>9:00 Свадебная фотосессия</h2>
-					<p class='text-2xl text-slate-500'>Lorem ipsum dolor sit amet cons ectetur adipisicing elit.</p>
+					<img class='rounded-2xl' src="assets/1c.jpg">
+					<h2 class='text-3xl'>14:30 - сбор гостей</h2>
+					<p class='text-2xl text-slate-500'>Собираясь на мероприятие, просим взять с собой ваши прекрасные улыбки и хорошее настроение</p>
 				</div>
 				<img class='arrow arrowRight' src="./assets/arrowRight.png" alt="Стрелка">
 			</div>
 			<div class="card flex justify-between mb-5">
 				<img class='arrow arrowLeft' src="./assets/arrowLeft.png" alt="Стрелка">
 				<div class="sore flex flex-col gap-2 md:w-full md:mr-20 w-3/4 text-center">
-					<img class='rounded-2xl' src="https://avatars.dzeninfra.ru/get-zen_doc/175604/pub_64e31c8a7a2b0a52f3e6d622_64e31d673003265c0ac66bfa/scale_1200">
-					<h2 class='text-3xl'>9:00 Свадебная фотосессия</h2>
-					<p class='text-2xl text-slate-500'>Lorem ipsum dolor sit amet cons ectetur adipisicing elit.</p>
+					<img class='rounded-2xl' src="assets/2c.jpg">
+					<h2 class='text-3xl'>15:00 - выездная регистрация на набережной</h2>
+					<p class='text-2xl text-slate-500'>На всякий случай приготовьте платочки для трогательного момента</p>
 				</div>
 			</div>
 			<div class="card flex justify-between mb-5">
 				<div class="sore flex flex-col gap-2 md:w-full md:mr-20 w-3/4 text-center">
-					<img class='rounded-2xl' src="https://avatars.dzeninfra.ru/get-zen_doc/175604/pub_64e31c8a7a2b0a52f3e6d622_64e31d673003265c0ac66bfa/scale_1200">
-					<h2 class='text-3xl'>9:00 Свадебная фотосессия</h2>
-					<p class='text-2xl text-slate-500'>Lorem ipsum dolor sit amet cons ectetur adipisicing elit.</p>
+					<img class='rounded-2xl' src="assets/ц.jpg">
+					<h2 class='text-3xl'>16:00 - Начало банкета</h2>
+					<p class='text-2xl text-slate-500'>Время вкусной еды, танцев и развлечений</p>
 				</div>
 				<img class='arrow arrowRight' src="./assets/arrowRight.png" alt="Стрелка">
 			</div>
 			<div class="card flex justify-between mb-5">
 				<img class='arrow arrowLeft' src="./assets/arrowLeft.png" alt="Стрелка">
 				<div class="sore flex flex-col gap-2 md:w-full md:mr-20 w-3/4 text-center">
-					<img class='rounded-2xl' src="https://avatars.dzeninfra.ru/get-zen_doc/175604/pub_64e31c8a7a2b0a52f3e6d622_64e31d673003265c0ac66bfa/scale_1200">
-					<h2 class='text-3xl'>9:00 Свадебная фотосессия</h2>
-					<p class='text-2xl text-slate-500'>Lorem ipsum dolor sit amet cons ectetur adipisicing elit.</p>
+					<img class='rounded-2xl' src="assets/5c.jpg">
+					<h2 class='text-3xl'>21:00 - торт</h2>
+					<p class='text-2xl text-slate-500'>Сладкая традиция, которую мы не можем обойти стороной</p>
+				</div>
+			</div>
+			<div class="card flex justify-between mb-5">
+				<div class="sore flex flex-col gap-2 md:w-full md:mr-20 w-3/4 text-center">
+					<img class='rounded-2xl' src="assets/4c.jpg">
+					<h2 class='text-3xl'>23:00 - Завершение вечера</h2>
+					<p class='text-2xl text-slate-500'>К сожалению, даже такой прекрасный вечер может закончиться</p>
 				</div>
 			</div>
 		</div>
@@ -149,6 +162,31 @@
 			<p class='text-center text-3xl'>Будем признательны за альтернативу букетам в форме бутылочки вина или другого, приятного напитка и записки о событии, к которому нам приурочить ее открытие</p>
 
 			<hr class='my-20'>
+		</div>
+
+		<div class="timer-container">
+			<h2 class='text-5xl mb-6'>До свадьбы осталось:</h2>
+			<div class="time-block flex gap-4 justify-center text-2xl">
+				<div class="time flex flex-col gap-2 items-center">
+					<h2 class='timer_days'></h2>
+					<span>Дни:</span>
+				</div>
+
+				<div class="time flex flex-col gap-2 items-center">
+					<h2 class='timer_hours'></h2>
+					<span>Часы:</span>
+				</div>
+
+				<div class="time flex flex-col gap-2 items-center">
+					<h2 class='timer_minutes'></h2>
+					<span>Минуты:</span>
+				</div>
+
+				<div class="time flex flex-col gap-2 items-center">
+					<h2 class='timer_seconds'></h2>
+					<span>Секунды:</span>
+				</div>
+			</div>
 		</div>
 
 	</main>

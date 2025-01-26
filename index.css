@@ -194,18 +194,50 @@ hr {
 }
 
 .c1 {
-	background-color: aquamarine;
+	background-color: rgb(236, 197, 197);
 }
 
 .c2 {
-	background-color: rgb(18, 196, 202);
+	background-color: rgb(153, 153, 153);
 }
 .c3 {
-	background-color: rgb(194, 179, 179);
+	background-color: rgb(216, 198, 140);
 }
 .c4 {
-	background-color: rgb(127, 255, 159);
+	background-color: rgb(182, 173, 124);
 }
 .c5 {
-	background-color: rgb(245, 247, 138);
+	background-color: rgb(91, 238, 248);
+}
+
+.timer-container {
+	background-image: url('./assets/timer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	object-fit: cover;
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+
+	gap: 10px;
+
+	padding-bottom: 60px;
+	z-index: 90;
+	color: #fff;
+
+	.time {
+		span {
+			font-size: 24px;
+			/* font-family: "Arial"; */
+		}
+
+		h2 {
+			font-size: 50px;
+		}
+	}
 }
