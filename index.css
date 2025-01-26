@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oranienbaum&display=swap');
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Great Vibes', sans-serif;
 }
 
 html {
@@ -16,6 +15,10 @@ a {
 	text-decoration: none;
 }
 
+body {
+	font-family: 'Oranienbaum', sans-serif;
+}
+
 .header-container {
 	position: fixed;
 	top: 0;
@@ -24,6 +27,7 @@ a {
 	z-index: 1;
 	background: #fff;
 	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+	font-family: 'Great Vibes', sans-serif;
 }
 
 .burger-menu {
@@ -44,6 +48,20 @@ a {
 	gap: 20px;
 
 	font-size: 34px;
+
+	font-family: 'Great Vibes', sans-serif !important;
+}
+
+.main-text {
+	font-family: 'Great Vibes', sans-serif !important;
+}
+
+#map,
+#programm,
+#clother,
+#heshtag,
+#washes {
+	margin: 0 15px;
 }
 
 .close-btn {
@@ -151,7 +169,7 @@ hr {
 
 @media (max-width: 924px) {
 	.sore img {
-		height: 100px;
+		height: 150px;
 		width: 100%;
 		object-fit: cover;
 	}
@@ -194,20 +212,19 @@ hr {
 }
 
 .c1 {
-	background-color: rgb(236, 197, 197);
+	background-color: #fdcccc;
 }
-
 .c2 {
-	background-color: rgb(153, 153, 153);
+	background-color: #ccccff;
 }
 .c3 {
-	background-color: rgb(216, 198, 140);
+	background-color: #c7e6db;
 }
 .c4 {
-	background-color: rgb(182, 173, 124);
+	background-color: #ffd8be;
 }
 .c5 {
-	background-color: rgb(91, 238, 248);
+	background-color: #cceeff;
 }
 
 .timer-container {

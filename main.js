@@ -72,11 +72,6 @@ document.addEventListener('DOMContentLoaded', () => {
     elMinutes.textContent = String(minutes).padStart(2, '0');
     elSeconds.textContent = String(seconds).padStart(2, '0');
 
-    elDays.dataset.title = declensionNum(days, ['день', 'дня', 'дней']);
-    elHours.dataset.title = declensionNum(hours, ['час', 'часа', 'часов']);
-    elMinutes.dataset.title = declensionNum(minutes, ['минута', 'минуты', 'минут']);
-    elSeconds.dataset.title = declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
-
     if (diff === 0) {
       clearInterval(timerId);
     }
