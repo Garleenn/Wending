@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./assets/ringFavicon.svg" type="image/x-icon">
 	<script src="https://cdn.tailwindcss.com"></script>
 	<script src='./main.js' defer></script>
 	<link rel="stylesheet" href="./index.css">
@@ -14,8 +15,8 @@
 	</audio>
 
 	<header>
-		<div class="header-container flex justify-between items-center md:p-10 p-4 gap-4 hidden">
-			<h2 class='md:text-5xl text-2xl mb-0'>Приглашение</h2>
+		<div class="header-container flex justify-between items-center md:p-6 p-4 gap-4 hidden">
+			<h2 class='md:text-4xl text-2xl mb-0'>Приглашение</h2>
 			<nav>
 				<div class="menus flex md:gap-12 gap-4">
 					<button><img id='play-btn' src="./assets/off-sound.png" alt="Звук"></button>
@@ -50,9 +51,9 @@
 
 			<hr>
 
-			<p class='text-center text-2xl'>Приглашаем вас разделить
+			<p class='text-center text-2xl'>Приглашаем Вас разделить
 				с нами радость особенного для нас события и стать частью нашей семейной истории!</p>
-			<p class='text-center text-4xl main-text'>Ждём вас!</p>
+			<p class='text-center text-4xl main-text'>Ждём Вас!</p>
 
 			<h2 class="text-4xl text-center mb-4">3 мая 2025 года</h2>
 
@@ -66,17 +67,12 @@
 
 			<h2 id='map' class="text-5xl text-center mb-0 main-text">Как добраться?</h2>
 
-			<p class='text-center text-2xl'>Для вашего удобства мы подготовили карту, надеемся, что вы легко найдёте место проведения свадьбы и порадуете нас своим присутствием!</p>
+			<p class='text-center text-2xl'>Для Вашего удобства мы подготовили карту. Надеемся, что Вы легко найдёте место проведения свадьбы и порадуете нас своим присутствием!</p>
 
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d428.5255071877607!2d40.55877950979822!3d49.931628301730086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41189d7fa6f8dd29%3A0xa27f0c11a043ea3f!2z0JrQsNGE0LUg0JDQtNC80LjRgNCw0LvRig!5e0!3m2!1sru!2sru!4v1736025753416!5m2!1sru!2sru" width='100%' height="300" style="border:0; border-radius: 18px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 			<hr>
 
-			<div class="calendar-container flex justify-center">
-				<img src="./assets/calendar.jpg" alt="3 May">
-	
-			</div>
-			<hr>
 		</div>
 
 
@@ -86,7 +82,7 @@
 				<div class="sore flex flex-col gap-2 md:w-full md:mr-20 w-3/4 text-center">
 					<img class='rounded-2xl' src="assets/1c.jpg">
 					<h2 class='text-2xl'>15:30 - Сбор гостей</h2>
-					<p class='text-2xl text-slate-500 main-text'>Собираясь на мероприятие, просим взять с собой ваши прекрасные улыбки и хорошее настроение</p>
+					<p class='text-2xl text-slate-500 main-text'>Собираясь на мероприятие, просим взять с собой Ваши прекрасные улыбки и хорошее настроение</p>
 				</div>
 				<img class='arrow arrowRight' src="./assets/arrowRight.png" alt="Стрелка">
 			</div>
@@ -127,13 +123,13 @@
 		<div id='clother' class="dress flex flex-col gap-5 items-center text-2xl">
 			<hr class='my-16'>
 			<h2 class="text-5xl text-center font-thin mb-4 main-text">Дресс-код</h2>
-			<p class='text-center text-2xl mb-4'>Нам будет приятно, если Вы поддержите стиль торжества в своих нарядах</p>
+			<p class='text-center text-2xl mb-4'>Нам будет очень приятно, если Вы поддержите дресс-код мероприятия и при выборе оттенков в одежде предпочтёте пастельные тона.</p>
 
-			<h3 class='main-text text-4xl'>Мужчины:</h3>
+			<!-- <h3 class='main-text text-4xl'>Мужчины:</h3>
 			<p class='text-center mb-4'>Классические костюмы и белые рубашки</p>
 
 			<h3 class='main-text text-4xl'>Девушки:</h3>
-			<p class='text-center mb-4'>Платья в соответствии с палитрой нашей свадьбы</p>
+			<p class='text-center mb-4'>Платья в соответствии с палитрой нашей свадьбы</p> -->
 
 			<div class="squares flex flex-wrap justify-center gap-5">
 				<div class="kub c1"></div>
@@ -141,6 +137,13 @@
 				<div class="kub c3"></div>
 				<div class="kub c4"></div>
 				<div class="kub c5"></div>
+			</div>
+
+			<div class="squares flex flex-wrap justify-center gap-5">
+				<div class="kub c6"></div>
+				<div class="kub c7"></div>
+				<div class="kub c8"></div>
+				<div class="kub c9"></div>
 			</div>
 
 			<hr class='my-20'>
@@ -157,13 +160,12 @@
 		</div>
 		<div id='washes' class="washes flex flex-col gap-5 items-center text-3xl">
 			<h2 class="text-5xl text-center font-thin mb-4 main-text">Пожелания</h2>
-			<p class='text-center text-2xl mb-10'>Главное для нас - ваше внимание, а радость доставит любой подарок в конверте</p>
-			<p class='text-center text-2xl'>Будем признательны за альтернативу букетам в форме бутылочки вина или другого, приятного напитка и записки о событии, к которому нам приурочить ее открытие</p>
+			<p class='text-center text-2xl mb-10'>Главное для нас - Ваше внимание, а радость доставит любой подарок в конверте</p>
 
-			<hr class='my-20'>
+			<hr class='mt-4 mb-28'>
 		</div>
 
-		<div class="timer-container">
+		<div class="timer-container" id='timer'>
 			<h2 class='text-5xl text-center mb-6 main-text'>До свадьбы осталось:</h2>
 			<div class="time-block flex gap-4 justify-center text-2xl">
 				<div class="time flex flex-col gap-2 items-center">

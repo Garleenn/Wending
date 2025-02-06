@@ -11,6 +11,12 @@ html {
   scroll-padding-top: 77px !important;
 }
 
+@media (min-width: 924px) {
+	html {
+		scroll-padding-top: 118px !important;
+	}
+}
+
 a {
 	text-decoration: none;
 }
@@ -119,7 +125,7 @@ body {
 
 @media (min-width: 924px) {
 	.bg-photo {
-		background-image: url('./assets/big_main.jpeg');
+		background-image: url('./assets/1comp.jpg');
 		background-position: top center;
 	}
 	
@@ -212,19 +218,34 @@ hr {
 }
 
 .c1 {
-	background-color: #fdcccc;
+	background-color: #eeeeee;
 }
 .c2 {
-	background-color: #ccccff;
+	background-color: #fbe0e0;
 }
 .c3 {
-	background-color: #c7e6db;
+	background-color: #e5d4ef;
 }
 .c4 {
-	background-color: #ffd8be;
+	background-color: #cceeff;
+
 }
 .c5 {
-	background-color: #cceeff;
+	background-color: #d7f9f8;
+}
+
+
+.c6 {
+	background-color: #c7e6db;
+}
+.c7 {
+	background-color: #fcf4dd;
+}
+.c8 {
+	background-color: #ffd8be;
+}
+.c9 {
+	background-color: #e9cec5;
 }
 
 .timer-container {
@@ -248,13 +269,35 @@ hr {
 	color: #fff;
 
 	.time {
+		width: 20%;
+		display: flex;
+		margin-right: 5%;
 		span {
-			font-size: 24px;
+			font-size: 20px;
 			/* font-family: "Arial"; */
 		}
 
 		h2 {
 			font-size: 50px;
 		}
+
+		&:nth-child(1) {
+			margin-left: 5%;
+		}
+
 	}
+}
+
+@media (min-width: 924px) {
+	.timer-container {
+		background-image: url('./assets/2comp.jpg') !important;
+		background-position: center end;
+		color: #ffffff;
+		/* font-weight: 700; */
+	}
+
+	iframe {
+		width: 40% !important;
+	}
+
 }

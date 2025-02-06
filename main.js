@@ -37,9 +37,9 @@ bgPhoto.addEventListener('click', function() {
 });
 
 window.addEventListener('scroll', function() {
-	if(window.scrollY >= 300 || window.scrollY >= 7500) {
+	if(window.scrollY >= 300 || window.scrollY >= 7200) {
 		headerContainer.classList.remove('hidden');
-	} if(window.scrollY >= 6600 || window.scrollY <= 300) {
+	} if(window.scrollY >= 5800 || window.scrollY <= 300) {
 	headerContainer.classList.add('hidden');
 }
 });
