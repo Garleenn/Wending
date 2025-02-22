@@ -101,7 +101,7 @@ body {
 
 	gap: 10px;
 
-	padding-bottom: 60px;
+	padding-bottom: 74px;
 
 	h1 {
 		font-family: 'sans-serif' !important;
@@ -300,4 +300,8 @@ hr {
 		width: 40% !important;
 	}
 
+}
+
+.text-heshtag {
+	font-size: 44px;
 }
